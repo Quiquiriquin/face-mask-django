@@ -1,0 +1,25 @@
+.nav {
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    gap: 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    width: 100%;
+    position: absolute !important;
+    z-index: 1 !important;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #0000;
+}
+
+nav a:hover {
+    color: #34cdcd;
+}
