@@ -1,0 +1,34 @@
+@import url('https://use.typekit.net/rjm2njl.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'sofia pro', sans-serif;
+}
+
+.bg.primary {
+    background: #AC3931;
+}
+
+.bg.secondary {
+    background: #81C5ED;
+}
+
+.color.primary:not(.hover) {
+    color: #AC3931;
+}
+
+.color.secondary:not(.hover) {
+    color: #81C5ED;
+}
+
+.hover.color.primary:hover {
+    color: #AC3931;
+        transition: all 0.3s ease;
+}
+
+.hover.color.secondary:hover {
+    color: #81C5ED;
+    transition: all 0.3s ease;
+}
+
